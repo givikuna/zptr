@@ -21,7 +21,7 @@
             pname = "zptr";
             version = "0.0.1";
             src = ./src;
-            nativeBuildInputs = [ pkgs.makeWrapper ];
+            nativeBuildInputs = [ pkgs.ruby ];
             installPhase = ''
               mkdir -p $out/bin
               cp zptr.rb $out/bin/zptr
