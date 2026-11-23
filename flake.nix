@@ -76,7 +76,7 @@
               }
             '';
 
-            programs.zsh.initExtra = ''
+            programs.zsh.initContent = ''
               zptr() {
                 local out
                 out="$(${cfg.package}/bin/zptr "$@")" || return
